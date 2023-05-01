@@ -1,0 +1,117 @@
+{
+  "language": "Sprache",
+  "locales": "Sprachen",
+  "app":{
+    "title": "Startseite"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "adress": "Adresse",
+    "phone": "Phone",
+    "email": "E-Mail",
+    "contactUs": "Kontaktieren Sie uns",
+    "send": "Senden",
+    "copied": "Kopiert"
+  },
+  "gallery": {
+    "title": "Galerie"
+  },
+  "references": {
+    "title": "Referenzen"
+  },
+  "home": {
+    "title": "Willkommen bei",
+    "subtitle": "Wir bieten eine breite Palette von Catering-Services, um Ihre Bedürfnisse zu erfüllen.",
+    "subtitle2": "Hier ist eine sorgfältig vorbereitete Frühstücksaktivität für Sie! Überraschen Sie Ihre Gäste mit diesem köstlichen Menü.",
+    "titlebutton": "Buchen Sie meinen Tisch!",
+    "aboutSection": {
+      "title": "Über uns",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua"
+    },
+    "menuSection": {
+      "title": "Unsere Dienstleistungen",
+      "subtitle": "Wir bieten ein breites Spektrum an Catering-Dienstleistungen, um Ihren Bedürfnissen gerecht zu werden.",
+      "menu": [
+        {
+          "title": "Firmenveranstaltungen",
+          "text": "Firmenveranstaltungen, özel etkinlikler ve toplantılar için özel olarak hazırlanmış yemekler sunuyoruz."
+        },
+        {
+          "title": "Hochzeiten",
+          "text": "Wir bieten Hochzeitsessen, die Ihre Gäste beeindrucken werden."
+        },
+        {
+          "title": "Partys",
+          "text": "Wir bieten Catering-Services für Ihre Bedürfnisse, von kleinen Familienfeiern bis hin zu großen Partys."
+        },
+        {
+          "title": "Lunchpakete",
+          "text": "Wir bieten maßgeschneiderte Lunchpakete an, um Ihren Bedarf an Mittagessen am Arbeitsplatz zu decken."
+        },
+        {
+          "title": "Grill",
+          "text": "Perfekt für Grillabende, Sommerpartys und andere Outdoor-Aktivitäten."
+        },
+        {
+          "title": "Getränke",
+          "text": "İçeceklerimiz, herhangi bir etkinlik için mükemmel bir tamamlayıcıdır."
+        },
+        {
+          "title": "Nachspeisen",
+          "text": "Unsere Desserts passen zu jedem Anlass."
+        }
+      ]
+    },
+    "referencesSection": {
+      "title": "Referenzen",
+      "subtitle": "Lesen Sie, was unsere Kunden über uns sagen.",
+      "references": [
+        {
+          "username": "John Doe",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua."
+        },
+        {
+          "username": "Jane Doe",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua."
+        },
+        {
+          "username": "John Doe",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua."
+        },
+        {
+          "username": "Jane Doe",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua."
+        }
+      ]
+    }
+  },
+  "logo": {
+    "name": "Alle Rechte vorbehalten"
+  },
+  "menu": {
+    "home": "Startseite",
+    "references": "Referenzen",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+  "header": {
+    "darkMode": "Dunkel",
+    "lightMode": "Hell",
+    "language": "Sprache"
+  },
+  "footer": {
+    "darkMode": "Dunkel",
+    "lightMode": "Hell",
+    "discover": "Entdecken",
+    "language": "Sprache",
+    "news": "Nachrichten",
+    "newsDesc": "Abonnieren Sie unseren Newsletter, um über die neuesten Nachrichten und Updates auf dem Laufenden zu bleiben.",
+    "email": "Geben sie ihre E-Mailadresse ein",
+    "subscribe": "Abonnieren"
+  },
+  "404": {
+    "title": "404",
+    "subtitle": "Seite nicht gefunden",
+    "button": "Zurück zur Startseite"
+  }
+}

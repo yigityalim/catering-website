@@ -1,0 +1,118 @@
+{
+  "language": "Language",
+  "locales": "Language",
+  "app": {
+    "title": "Home"
+  },
+  "contact": {
+    "title": "Contact",
+    "adress": "Adress",
+    "phone": "Phone",
+    "email": "E-mail",
+    "contactUs": "Contact Us",
+    "send": "Send",
+    "copied": "Copied"
+  },
+  "gallery": {
+    "title": "Gallery"
+  },
+  "references": {
+    "title": "References"
+  },
+  "home": {
+    "title": "Home",
+    "subtitle": "Breakfast Catering Services",
+    "subtitle2": "We offer a wide range of catering services to meet your needs.",
+    "titlebutton": "Contact Us",
+    "aboutSection": {
+      "title": "About Us",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua"
+    },
+    "menuSection": {
+      "title": "Our Services",
+      "subtitle": "We offer a wide range of catering services to meet your needs.",
+      "menu": [
+        {
+          "title": "Corporate Events",
+          "text": "We offer customized catering services for corporate events of any size."
+        },
+        {
+          "title": "Wedding Catering",
+          "text": "We offer customized catering services for weddings of any size."
+        },
+        {
+          "title": "Private Events",
+          "text": "We offer customized catering services for private events of any size."
+        },
+        {
+          "title": "Boxed Lunches",
+          "text": "We offer customized catering services for boxed lunches of any size."
+        },
+        {
+          "title": "Barbecue",
+          "text": "We offer customized catering services for barbecue of any size."
+        },
+        {
+          "title": "Cocktail Parties",
+          "text": "We offer customized catering services for cocktail parties of any size."
+        },
+        {
+          "title": "Desserts",
+          "text": "We offer customized catering services for desserts of any size."
+        }
+      ]
+    },
+    "referencesSection": {
+      "title": "References",
+      "subtitle": "Read what our customers are saying about us.",
+      "references": [
+        {
+          "username": "John Doe",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua."
+        },
+        {
+          "username": "Jane Doe",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua."
+        },
+        {
+          "username": "John Doe",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua."
+        },
+        {
+          "username": "Jane Doe",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua."
+        }
+      ]
+    }
+
+  },
+  "logo": {
+    "name": "All rights reserved"
+  },
+  "menu": {
+    "home": "Home",
+    "references": "References",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "header": {
+    "darkMode": "Dark",
+    "lightMode": "light",
+    "language": "Language"
+  },
+  "footer": {
+    "darkMode": "Dark",
+    "lightMode": "light",
+    "discover": "Discover",
+    "language": "Language",
+    "news": "News",
+    "newsDesc": "Subscribe to our newsletter to be informed about our latest news.",
+    "email": "Please enter your e-mail address.",
+    "subscribe": "Subscribe"
+  },
+  "404": {
+    "title": "404",
+    "subtitle": "Page not found",
+    "button": "Go to Home Page"
+  }
+}

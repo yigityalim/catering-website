@@ -1,0 +1,117 @@
+{
+  "language": "Dil",
+  "locales": "Dil",
+  "app": {
+    "title": "Anasayfa"
+  },
+  "contact": {
+    "title": "İletişim",
+    "adress": "Adres",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "contactUs": "Bize Ulaşın",
+    "send": "Gönder",
+    "copied": "Kopyalandı"
+  },
+  "gallery": {
+    "title": "Galeri"
+  },
+  "references": {
+    "title": "Referanslar"
+  },
+  "home": {
+    "title": "Anasayfa",
+    "subtitle": "Kahvaltı Catering Hizmetleri",
+    "subtitle2": "İşte sizin için özenle hazırlanmış bir kahvaltı etkinliği! Gelin ve konuklarınızı bu lezzetli menüyle şaşırtın.",
+    "titlebutton": "Masamı Ayırt!",
+    "aboutSection": {
+      "title": "Hakkımızda",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua"
+    },
+    "menuSection": {
+      "title": "Hizmetlerimiz",
+      "subtitle": "İhtiyaçlarınızı karşılamak için geniş bir yemek hizmeti yelpazesi sunuyoruz.",
+      "menu": [
+        {
+          "title": "Kurumsal Etkinlikler",
+          "text": "Herhangi bir boyuttaki kurumsal etkinlikler için özelleştirilmiş yemek hizmetleri sunuyoruz."
+        },
+        {
+          "title": "Düğün Yemekleri",
+          "text": "Konuklarınızın etkileneceği düğün yemekleri sunuyoruz."
+        },
+        {
+          "title": "Özel Partiler",
+          "text": "Küçük aile toplantılarından büyük partilere kadar ihtiyaçlarınıza uygun yemek hizmetleri sunuyoruz."
+        },
+        {
+          "title": "Kutulu Öğle Yemekleri",
+          "text": "İş yerinizdeki öğle yemeği ihtiyaçlarınızı karşılamak için özel olarak hazırlanmış kutulu öğle yemekleri sunuyoruz."
+        },
+        {
+          "title": "Barbekü",
+          "text": "Barbekü yemekleri, yaz partileri ve diğer açık hava etkinlikleri için mükemmeldir."
+        },
+        {
+          "title": "İçecekler",
+          "text": "İçeceklerimiz, herhangi bir etkinlik için mükemmel bir tamamlayıcıdır."
+        },
+        {
+          "title": "Tatlılar",
+          "text": "Tatlılarımız, her türlü etkinlik için mükemmeldir."
+        }
+      ]
+    },
+    "referencesSection": {
+      "title": "Referanslar",
+      "subtitle": "Müşterilerimizin bize ne dediğini okuyun.",
+      "references": [
+        {
+          "username": "John Doe",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua."
+        },
+        {
+          "username": "Jane Doe",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua."
+        },
+        {
+          "username": "John Doe",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua."
+        },
+        {
+          "username": "Jane Doe",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed aliquam ultricies, nunc nisl aliquet velit, nec aliqua."
+        }
+      ]
+    }
+  },
+  "logo": {
+    "name": "Tüm hakları saklıdır."
+  },
+  "menu": {
+    "home": "Anasayfa",
+    "references": "Referanslar",
+    "gallery": "Galeri",
+    "contact": "İletişim"
+  },
+  "header": {
+    "darkMode": "Koyu",
+    "lightMode": "Açık",
+    "language": "Dil"
+  },
+  "footer": {
+    "darkMode": "Koyu",
+    "lightMode": "Açık",
+    "discover": "Keşfet",
+    "language": "Dil",
+    "news": "Haberler",
+    "newsDesc": "Doğrudan gelen kutunuza özel promosyonlar ve güncellemeler alın.",
+    "email": "E-posta adresinizi giriniz",
+    "subscribe": "Abone ol"
+  },
+  "404": {
+    "title": "404",
+    "subtitle": "Aradığınız sayfayı bulamadık.",
+    "button": "Anasayfaya Dön"
+  }
+}

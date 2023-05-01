@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Anuga",
+    "date": "2023-11-11",
+    "url": "https://www.anuga.com/en.html",
+    "description": "Anuga, Dünya'nın en büyük gıda fuarıdır. 2019 yılında 7.500'den fazla firmanın katıldığı fuar, 160'dan fazla ülkeden 165.000'den fazla ziyaretçiye ev sahipliği yapmıştır. Anuga, gıda sektörünün en önemli fuarıdır. Bu yıl 10-14 Ekim tarihleri arasında düzenlenecektir.",
+    "image": "https://media.koelnmesse.io/anuga/redaktionell/anuga/img/layout-en/anuga-4c.png",
+    "tags": [
+      "gıda",
+      "fuar"
+    ],
+    "category": "fuar",
+    "type": "gıda",
+    "country": "Almanya",
+    "city": "Koln",
+    "address": "Koln, Almanya",
+    "latitude": 50.938361,
+    "longitude": 6.959974,
+    "phone": "0212 444 0 444",
+    "email": ""
+  },
+  {
+    "name": "Heimtextil",
+    "date": "2023-01-10",
+    "url": "https://www.heimtextil.messefrankfurt.com/frankfurt/en.html",
+    "description": "Heimtextil, dünyanın en büyük ev tekstili fuarıdır. 2019 yılında 2.800'den fazla firmanın katıldığı fuar, 70'den fazla ülkeden 70.000'den fazla ziyaretçiye ev sahipliği yapmıştır. Heimtextil, ev tekstili sektörünün en önemli fuarıdır. Bu yıl 8-11 Ocak tarihleri arasında düzenlenecektir.",
+    "image": "https://heimtextil.messefrankfurt.com/content/dam/messefrankfurt-france/texworld-evolution-paris/logos/messefrankfurt-small.svg",
+    "tags": [
+      "ev tekstili",
+      "fuar"
+    ],
+    "category": "fuar",
+    "type": "ev tekstili",
+    "country": "Almanya",
+    "city": "Frankfurt",
+    "address": "Frankfurt, Almanya",
+    "latitude": 50.1109221,
+    "longitude": 8.6821267,
+    "phone": "0212 444 0 444",
+    "email": ""
+  }
+]
