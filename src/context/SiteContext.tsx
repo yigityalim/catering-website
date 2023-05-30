@@ -12,11 +12,11 @@ type ContextType = {
     handleLanguage: (language: Language) => Promise<void>;
 };
 
-export const Context = createContext<ContextType>({} as ContextType);
+export const Context: React.Context<ContextType> = createContext<ContextType>({} as ContextType);
 
 type Props = { children: React.ReactNode };
 
-const Provider = ({children}: Props): JSX.Element => {
+const Provider = ({children}: Props): React.JSX.Element => {
 
     const {i18n} = useTranslation();
     const handleLanguage = async (language: Language): Promise<void> => {

@@ -1,8 +1,9 @@
 import {Heading, Text} from "../components/Text.tsx";
 import {t} from "i18next";
 import type {MenuItem, Reference} from "../types/language.ts";
+import React from "react";
 
-export default function Home(): JSX.Element {
+export default function Home(): React.JSX.Element {
     return (
         <div className="min-h-screen flex flex-col gap-y-2">
             {/* Hero section */}

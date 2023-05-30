@@ -1,8 +1,9 @@
 import Routes from "./Routes.tsx";
 import {Trans, useTranslation} from "react-i18next";
 import {Helmet} from "react-helmet";
+import React from "react";
 
-export default function App(): JSX.Element {
+export default function App(): React.JSX.Element  {
     const {t} = useTranslation();
     return (<>
             <Helmet><title>{t('app.title')}</title></Helmet>

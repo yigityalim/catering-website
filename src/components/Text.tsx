@@ -35,7 +35,7 @@ type TextProps = {
     onClick?: (event: React.MouseEvent<HTMLParagraphElement, MouseEvent>) => void;
 }
 
-function Text({children, size = 'base', weight = 'normal', className = '', onClick}: TextProps) {
+function Text({children, size = 'base', weight = 'normal', className = '', onClick}: TextProps): React.JSX.Element {
     const classNames = c(TextSize[size], FontWeight[weight], className)
     return (
         <p className={classNames} onClick={onClick}>
@@ -44,7 +44,7 @@ function Text({children, size = 'base', weight = 'normal', className = '', onCli
     )
 }
 
-function Heading({children, size = '4xl', weight = 'semibold', className = '', onClick}: TextProps) {
+function Heading({children, size = '4xl', weight = 'semibold', className = '', onClick}: TextProps): React.JSX.Element {
     const props = c(TextSize[size], FontWeight[weight], className)
     return (
         <h1 className={props} onClick={onClick}>

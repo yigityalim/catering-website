@@ -1,11 +1,11 @@
 import {Dialog, Transition} from "@headlessui/react";
-import {Fragment, useMemo, useState} from "react";
+import React, {Fragment, useMemo, useState} from "react";
 import Icon from "../components/Icon.tsx";
 import {LazyLoadImage} from "react-lazy-load-image-component";
 import c from "classnames";
 import fairs from 'utils/fairs.json';
 import {Heading, Text} from "../components/Text.tsx";
-export default function Job() {
+export default function Job(): React.JSX.Element {
     return (
         <div className='w-full flex flex-col gap-y-4'>
             <Heading children='İş İlanı' className='text-brand' weight='bold' size='4xl'/>
@@ -16,7 +16,7 @@ export default function Job() {
     )
 }
 
-function Modal(): JSX.Element {
+function Modal(): React.JSX.Element {
     const [isOpen, setIsOpen] = useState<boolean>(true)
 
     const [page, setPage] = useState<number>(1)
@@ -118,7 +118,7 @@ function Modal(): JSX.Element {
     )
 }
 
-function FairPage(): JSX.Element {
+function FairPage(): React.JSX.Element {
 
     //const [selected, setSelected] = useState<number>()
     /*const handleFairSelect = (index: number) => {
@@ -175,7 +175,7 @@ function FairPage(): JSX.Element {
     )
 }
 
-function Placepage(): JSX.Element {
+function Placepage(): React.JSX.Element {
     const [text, setText] = useState<string>("");
 
     const error = useMemo(() => {
@@ -247,7 +247,7 @@ function Placepage(): JSX.Element {
     )
 }
 
-function Hostpage(): JSX.Element {
+function Hostpage(): React.JSX.Element {
 
     const hostes = [...Array(10).keys()]
 
@@ -286,7 +286,7 @@ function Hostpage(): JSX.Element {
     )
 }
 
-function InfoPage(): JSX.Element {
+function InfoPage(): React.JSX.Element {
 
     return (
         <Transition.Child

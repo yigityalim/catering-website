@@ -1,13 +1,13 @@
 import {Text} from "../components/Text";
 import BreadCrumb from "../components/BreadCrumb";
 import Icon from "../components/Icon";
-import {useState} from "react";
+import React, {useState} from "react";
 import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {useSiteContext} from "../hooks/useSiteContext.ts";
 import {useTranslation} from "react-i18next";
 import {Helmet} from "react-helmet";
-export default function Contact(): JSX.Element {
+export default function Contact(): React.JSX.Element {
 
     const {t} = useTranslation();
     const {isDarkMode} = useSiteContext();
@@ -57,7 +57,7 @@ export default function Contact(): JSX.Element {
                     {fields.map((field, index) => (
                         <div
                             onClick={() => copyToClipboard(index)}
-                            className="bg-wash dark:bg-wash-dark rounded-lg shadow-md dark:shadow-xl p-6 cursor-pointer hover:shadow-xl dark:hover:shadow-2xl"
+                            className="bg-card dark:bg-card-dark rounded-lg shadow-md dark:shadow-xl p-6 cursor-pointer hover:shadow-xl dark:hover:shadow-2xl"
                             key={index}
                         >
                             <div className="flex flex-col justify-center items-center h-full">
@@ -87,7 +87,7 @@ export default function Contact(): JSX.Element {
                     <Text children={t('contact.contactUs')} size="4xl" weight="bold" className="text-brand my-6"/>
                     <div className="flex gap-4">
                         <div className="flex-1">
-                            <div className="bg-white dark:bg-wash-dark rounded-lg shadow-md dark:shadow-xl p-6">
+                            <div className="bg-card dark:bg-card-darkx rounded-lg shadow-md dark:shadow-xl p-6">
                                 <div className="flex flex-col gap-4">
                                     <label htmlFor="email" className="text-brand font-bold capitalize text-xl">
                                         {t('contact.email')}

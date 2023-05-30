@@ -2,7 +2,7 @@ import {Link, NavLink} from "react-router-dom";
 import Icon from "./Icon.tsx";
 import {Menu} from "@headlessui/react";
 import {useSiteContext} from "context";
-import {Fragment} from "react";
+import React, {Fragment} from "react";
 import menu from "./menu.ts";
 import c from "classnames";
 import Logo, {LogoName} from "./Logo.tsx";
@@ -10,7 +10,8 @@ import {useTranslation} from "react-i18next";
 import {disableBodyScroll, enableBodyScroll} from "body-scroll-lock";
 import i18n from "i18next";
 import LanguageMenu from "./LanguageMenu.tsx";
-const MobileMenu = (): JSX.Element => {
+
+const MobileMenu = (): React.JSX.Element => {
     const {t} = useTranslation();
     const {isDarkMode, enable, disable} = useSiteContext();
     const body: HTMLElement = document.body as HTMLElement;

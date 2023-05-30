@@ -1,18 +1,18 @@
 import {useSiteContext} from "../hooks/useSiteContext.ts";
 import {Menu} from "@headlessui/react";
 import Icon from "./Icon.tsx";
-import {Fragment} from "react";
+import React, {Fragment} from "react";
 import c from "classnames";
-import i18n from "i18next";
 import {Text} from "./Text.tsx";
 import {useTranslation} from "react-i18next";
 type LanguageMenuProps = {
     className?: string;
     bg: boolean;
 }
-const LanguageMenu = ({className, bg}: LanguageMenuProps) => {
+const LanguageMenu = ({className, bg}: LanguageMenuProps): React.JSX.Element => {
     const {handleLanguage} = useSiteContext();
-    const {t} = useTranslation();
+    const {t, i18n} = useTranslation();
+    const currentLanguage = i18n.language;
 
     return (
         <Menu as='div' className={c('relative inline-block text-left z-5', className)}>
@@ -32,7 +32,7 @@ const LanguageMenu = ({className, bg}: LanguageMenuProps) => {
                     <button
                         onClick={() => handleLanguage("tr")}
                         className={`${
-                            i18n.language === "tr" ? "bg-brand dark:bg-brand-dark" : ""
+                            currentLanguage === "tr" ? "bg-brand dark:bg-brand-dark" : ""
                         } flex items-center justify-center w-full p-1 rounded-md text-white transition-all duration-300 ease-in-out hover:bg-brand hover:text-white`}
                     >
                         <span role="img" aria-label="turkey-flag" className='text-xl'>🇹🇷</span>
@@ -42,7 +42,7 @@ const LanguageMenu = ({className, bg}: LanguageMenuProps) => {
                     <button
                         onClick={() => handleLanguage("en")}
                         className={`${
-                            i18n.language === "en" ? "bg-brand dark:bg-brand-dark" : ""
+                            currentLanguage === "en" ? "bg-brand dark:bg-brand-dark" : ""
                         } flex items-center justify-center w-full p-1 rounded-md text-white transition-all duration-300 ease-in-out hover:bg-brand hover:text-white`}
                     >
                       <span role="img" aria-label="united-kingdom-flag" className='text-xl'>🇬🇧</span>
@@ -52,7 +52,7 @@ const LanguageMenu = ({className, bg}: LanguageMenuProps) => {
                     <button
                         onClick={() => handleLanguage("de")}
                         className={`${
-                            i18n.language === "de" ? "bg-brand dark:bg-brand-dark" : ""
+                            currentLanguage === "de" ? "bg-brand dark:bg-brand-dark" : ""
                         } flex items-center justify-center w-full p-1 rounded-md text-white transition-all duration-300 ease-in-out hover:bg-brand hover:text-white`}
                     >
                         <span role="img" aria-label="germany-flag" className='text-xl'>🇩🇪</span>

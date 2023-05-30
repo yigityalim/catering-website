@@ -4,12 +4,14 @@ import Gallery from "./pages/Gallery.tsx";
 import Contact from "./pages/Contact.tsx";
 import Home from "./pages/Home.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import Test from "./pages/Test.tsx";
+import React from "react";
 const allRoutes = () => {
     const token = true as const; // buraya token kontrolü gelecek
 
     type Route = {
         path: string;
-        element: JSX.Element;
+        element: React.JSX.Element;
     }
 
     const publicRoutes: Route[] = [
@@ -17,7 +19,8 @@ const allRoutes = () => {
         {path: '/references', element: <References/>},
         {path: '/gallery', element: <Gallery/>},
         {path: '/contact', element: <Contact/>},
-        {path: '*', element: <NotFound/>}
+        {path: '*', element: <NotFound/>},
+        {path: '/test', element: <Test/>},
     ];
 
     const privateRoutes = [

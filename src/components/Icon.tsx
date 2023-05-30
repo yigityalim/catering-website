@@ -23,7 +23,7 @@ enum IconSize {
     '9xl' = 'text-9xl',
 }
 
-const Icon = ({children, size = 'xl', className, onClick, ...props}: IconProps): JSX.Element => {
+const Icon = ({children, size = 'xl', className, onClick, ...props}: IconProps): React.JSX.Element => {
     return (
         <span
             {...props}
