@@ -1,4 +1,3 @@
-import Provider from "./SiteContext.tsx";
-export {useSiteContext} from "../hooks/useSiteContext.ts";
 
-export default Provider;
+export {useSiteContext} from "../hooks/useSiteContext.ts";
+export {useAuthContext} from "../hooks/useAuthContext.ts";

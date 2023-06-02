@@ -11,7 +11,13 @@
     "email": "E-posta",
     "contactUs": "Bize Ulaşın",
     "send": "Gönder",
-    "copied": "Kopyalandı"
+    "copied": "Kopyalandı",
+    "schedule": "Çalışma Saatleri",
+    "fax": "Faks",
+    "website": "Web Sitesi",
+    "message": "Mesaj",
+    "name": "Ad",
+    "age": "Yaş"
   },
   "gallery": {
     "title": "Galeri"

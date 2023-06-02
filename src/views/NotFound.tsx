@@ -9,8 +9,8 @@ export default function NotFound(): React.JSX.Element {
     return (
         <Trans t={t}>
             <Helmet><title>{t('404.title')}</title></Helmet>
-            <div className='flex flex-col items-center justify-center w-full gap-y-4 h-[calc(100vh-20rem)]'>
-                <div className='text-9xl text-center font-semibold text-red-500'>404</div>
+            <div className='flex flex-col items-start justify-center w-full gap-y-4'>
+                <div className='text-9xl text-center font-bold text-brand'>404</div>
                 <div className='text-4xl text-center font-normal text-dark dark:text-light leading-normal'>
                     {t('404.subtitle')}
                 </div>

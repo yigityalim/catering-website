@@ -16,7 +16,7 @@ const MobileMenu = (): React.JSX.Element => {
     const {isDarkMode, enable, disable} = useSiteContext();
     const body: HTMLElement = document.body as HTMLElement;
     const closeOverflow = (): void => enableBodyScroll(body);
-    const openOverflow = (): void => disableBodyScroll(body)
+    const openOverflow = (): void => disableBodyScroll(body);
     return (
         <Menu as='div' className='inline-block text-left md:hidden'>
             <Menu.Button onClick={openOverflow} className='flex items-center justify-center'>
@@ -24,7 +24,7 @@ const MobileMenu = (): React.JSX.Element => {
             </Menu.Button>
             <Menu.Items
                 as='div'
-                className='p-8 fixed left-0 top-0 w-screen h-[100dvh] backdrop-filter backdrop-blur-lg backdrop-saturate-200 bg-opacity-90 dark:text-white z-full bg-wash dark:bg-wash-dark bg-opacity-95 dark:bg-opacity-95 outline-none flex flex-col justify-start gap-y-8'>
+                className='p-8 fixed left-0 top-0 w-screen h-[100dvh] backdrop-filter backdrop-blur-lg backdrop-saturate-200 dark:text-white z-full bg-wash dark:bg-wash-dark bg-opacity-95 dark:bg-opacity-95 outline-none flex flex-col justify-start gap-y-8'>
                 <div className='flex justify-between gap-x-4'>
                     <Logo link={false}/>
                     <Menu.Button onClick={closeOverflow} className='flex items-center justify-center'>
@@ -55,8 +55,9 @@ const MobileMenu = (): React.JSX.Element => {
                         {i18n.language === 'de' && (isDarkMode ? 'Hell' : 'Dunkel')}
                     </span>
                 </button>
-                <LanguageMenu bg={true} />
-                <Menu.Item onClick={closeOverflow} as={'div'} className='text-md font-semibold text-brand mt-auto text-center'>
+                <LanguageMenu bg={true}/>
+                <Menu.Item onClick={closeOverflow} as={'div'}
+                           className='text-md font-semibold text-brand mt-auto text-center'>
                     <LogoName/>
                 </Menu.Item>
             </Menu.Items>
@@ -64,32 +65,20 @@ const MobileMenu = (): React.JSX.Element => {
     )
 }
 const Header = () => {
-
     const {t} = useTranslation();
-    /*
-    const [isScrolled, setIsScrolled] = useState<boolean>(false);
-    const handleScroll = (): void => {
-        const currentScrollPos = window.scrollY;
-        const isScrolled = currentScrollPos > 0;
-        setIsScrolled(isScrolled);
-    }
-
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
-     */
-
     const {isDarkMode, toggle} = useSiteContext();
     return (
         <>
-            <header className='z-10 sticky top-0'>
-                <nav className={c(
-                    'p-8 items-center w-full flex justify-between bg-wash dark:bg-wash-dark p-8 z-50 dark:shadow-nav-dark shadow-nav backdrop-blur-sm backdrop-saturate-200 transition-shadow bg-opacity-70 dark:bg-opacity-80',
-                )}>
+            <header className="z-10 sticky top-0">
+                <nav
+                    className={c(
+                        'items-center w-full flex justify-between bg-wash dark:bg-wash-dark z-50 dark:shadow-nav-dark shadow-nav backdrop-blur-sm backdrop-saturate-200 bg-opacity-70 dark:bg-opacity-80',
+                        'p-8 md:px-16 lg:px-24 xl:px-32 2xl:px-40',
+                    )}
+                >
                     <Logo link={true}/>
                     <MobileMenu/>
-                    <div className='hidden md:flex items-center gap-x-4'>
+                    <div className='hidden md:flex items-center md:gap-x-2 lg:gap-x-4'>
                         <LanguageMenu bg={false}/>
                         <button
                             onClick={toggle}
@@ -102,7 +91,7 @@ const Header = () => {
                             <Link
                                 to={item.href}
                                 key={index}
-                                className='transition px-4 py-2 text-brand rounded-md hover:bg-brand hover:text-white rounded-lg'>
+                                className='transition px-4 py-2 text-brand rounded-md hover:bg-brand hover:text-white'>
                                 {t(`menu.${item.name}`)}
                             </Link>
                         ))}

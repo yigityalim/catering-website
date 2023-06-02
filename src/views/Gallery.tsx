@@ -189,7 +189,7 @@ const ToggleView = ({ setView }: ToggleViewProps): React.JSX.Element => {
 
 export default function Gallery(): React.JSX.Element {
     const [isOpen, setIsOpen] = useState<boolean>(false);
-    const [selectedImage, setSelectedImage] = useState<Photo | null>(null);
+    const [selectedImage, setSelectedImage  ] = useState<Photo | null>(null);
 
     type ViewPreference = 'grid' | 'list';
 

@@ -28,7 +28,7 @@ enum FontWeight {
 }
 
 type TextProps = {
-    children: string;
+    children: React.ReactNode;
     size?: keyof typeof TextSize;
     weight?: keyof typeof FontWeight;
     className?: string;

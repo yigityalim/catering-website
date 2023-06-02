@@ -45,10 +45,10 @@ export default {
     'blue-80': '#043849',
     'blue-60': '#045975',
     'blue-50': '#087EA4',
-    'blue-40': '#149ECA', // Brand Blue
-    'blue-30': '#58C4DC', // unused
+    'blue-40': '#149ECA',
+    'blue-30': '#58C4DC',
     'blue-20': '#ABE2ED',
-    'blue-10': '#E6F7FF', // todo: doesn't match illustrations
+    'blue-10': '#E6F7FF',
     'blue-5': '#E6F6FA',
 
     // Yellow

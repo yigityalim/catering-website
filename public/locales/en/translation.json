@@ -11,7 +11,13 @@
     "email": "E-mail",
     "contactUs": "Contact Us",
     "send": "Send",
-    "copied": "Copied"
+    "copied": "Copied",
+    "schedule": "Schedule",
+    "fax": "Fax",
+    "website": "Website",
+    "message": "Message",
+    "name": "Name",
+    "age": "Age"
   },
   "gallery": {
     "title": "Gallery"

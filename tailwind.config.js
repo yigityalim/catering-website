@@ -4,7 +4,7 @@ import colors from "./colors";
 /** @type {import('tailwindcss').Config} */
 export default {
     content: [
-        './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+        './src/views/**/*.{js,ts,jsx,tsx,mdx}',
         './src/components/**/*.{js,ts,jsx,tsx,mdx}',
         './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     ],
@@ -92,8 +92,13 @@ export default {
                 marquee2: 'marquee2 40s linear infinite',
                 'large-marquee': 'large-marquee 80s linear infinite',
                 'large-marquee2': 'large-marquee2 80s linear infinite',
+                'border-spin': 'border-spin 10s linear infinite',
             },
             keyframes: {
+                'border-spin': {
+                    '0%': {transform: 'rotate(0deg)'},
+                    '100%': {transform: 'rotate(360deg)'},
+                },
                 carousel: {
                     '0%': {transform: 'translateX(0%)'},
                     '100%': {transform: 'translateX(-100%)'},

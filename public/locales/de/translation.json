@@ -11,7 +11,13 @@
     "email": "E-Mail",
     "contactUs": "Kontaktieren Sie uns",
     "send": "Senden",
-    "copied": "Kopiert"
+    "copied": "Kopiert",
+    "schedule": "Öffnungszeiten",
+    "fax": "Fax",
+    "website": "Website",
+    "message": "Nachricht",
+    "name": "Name",
+    "age": "Alter"
   },
   "gallery": {
     "title": "Galerie"

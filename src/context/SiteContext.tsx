@@ -16,7 +16,7 @@ export const Context: React.Context<ContextType> = createContext<ContextType>({}
 
 type Props = { children: React.ReactNode };
 
-const Provider = ({children}: Props): React.JSX.Element => {
+const SiteProvider = ({children}: Props): React.JSX.Element => {
 
     const {i18n} = useTranslation();
     const handleLanguage = async (language: Language): Promise<void> => {
@@ -42,4 +42,4 @@ const Provider = ({children}: Props): React.JSX.Element => {
     return <Context.Provider value={contextValue}>{children}</Context.Provider>;
 };
 
-export default Provider;
+export default SiteProvider;
