@@ -10,3 +10,7 @@ body {
 .active {
   @apply text-light bg-brand
 }
+
+html, body, #root {
+  height: 100%;
+}

@@ -31,6 +31,9 @@ const MobileMenu = (): React.JSX.Element => {
                         <Icon children='close' className='text-brand' size='4xl'/>
                     </Menu.Button>
                 </div>
+                <Link to="/admin" className='transition px-4 py-2 text-brand rounded-md hover:bg-brand hover:text-white'>
+                    Admin
+                </Link>
                 {menu.map((item, key) => (
                     <Menu.Item as={Fragment} key={key}>
                         <NavLink
@@ -95,6 +98,9 @@ const Header = () => {
                                 {t(`menu.${item.name}`)}
                             </Link>
                         ))}
+                        <Link to="/admin" className='transition px-4 py-2 text-brand rounded-md hover:bg-brand hover:text-white'>
+                            Admin
+                        </Link>
                     </div>
                 </nav>
             </header>

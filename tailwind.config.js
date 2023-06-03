@@ -4,9 +4,11 @@ import colors from "./colors";
 /** @type {import('tailwindcss').Config} */
 export default {
     content: [
+        './src/admin/**/*.{js,ts,jsx,tsx,mdx}',
         './src/views/**/*.{js,ts,jsx,tsx,mdx}',
         './src/components/**/*.{js,ts,jsx,tsx,mdx}',
         './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+        './src/**/*.{js,ts,jsx,tsx,mdx}',
     ],
     darkMode: 'class',
     theme: {

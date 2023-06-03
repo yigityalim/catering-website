@@ -89,10 +89,4 @@ export default {
 
     // MISC
     'gradient-blue': '#58C4DC', // Only used for the landing gradient for now.
-    github: {
-        highlight: '#fffbdd',
-    },
 }
-
-/*
- */

@@ -27,16 +27,16 @@ enum FontWeight {
     extrabold = 'font-black',
 }
 
-type TextProps = {
-    children: React.ReactNode;
+type TextProps = Pick<
+    React.HTMLProps<HTMLParagraphElement>,
+    'children' | 'className' | 'onClick' | 'style' | 'id'
+> & {
     size?: keyof typeof TextSize;
     weight?: keyof typeof FontWeight;
-    className?: string;
-    onClick?: (event: React.MouseEvent<HTMLParagraphElement, MouseEvent>) => void;
-}
+};
 
 function Text({children, size = 'base', weight = 'normal', className = '', onClick}: TextProps): React.JSX.Element {
-    const classNames = c(TextSize[size], FontWeight[weight], className)
+    const classNames: string = c(TextSize[size], FontWeight[weight], className)
     return (
         <p className={classNames} onClick={onClick}>
             {children}
@@ -45,7 +45,7 @@ function Text({children, size = 'base', weight = 'normal', className = '', onCli
 }
 
 function Heading({children, size = '4xl', weight = 'semibold', className = '', onClick}: TextProps): React.JSX.Element {
-    const props = c(TextSize[size], FontWeight[weight], className)
+    const props: string = c(TextSize[size], FontWeight[weight], className)
     return (
         <h1 className={props} onClick={onClick}>
             {children}

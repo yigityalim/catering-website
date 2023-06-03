@@ -136,7 +136,7 @@ export default function Contact(): React.JSX.Element {
                                         type="text"
                                         placeholder={t('contact.email') as string}
                                         onChange={(e) => setText(e.target.value)}
-                                        className="bg-transparent border-b-2 border-brand p-2 pl-0 focus:outline-none"
+                                        className="bg-transparent border-b-2 border-brand p-2 pl-0 focus:outline-none rounded-none"
                                     />
                                     <Transition
                                         show={text.length > 0}
@@ -195,7 +195,7 @@ export default function Contact(): React.JSX.Element {
                                     id="name"
                                     type="text"
                                     placeholder={t('contact.name') as string}
-                                    className="bg-transparent border-b-2 border-brand p-2 pl-0 focus:outline-none"
+                                    className="bg-transparent border-b-2 border-brand p-2 pl-0 focus:outline-none rounded-none"
                                 />
                                 <label htmlFor="email" className="text-brand font-bold capitalize text-xl">
                                     {t('contact.email')}
@@ -204,7 +204,7 @@ export default function Contact(): React.JSX.Element {
                                     id="email"
                                     type="text"
                                     placeholder={t('contact.email') as string}
-                                    className="bg-transparent border-b-2 border-brand p-2 pl-0 focus:outline-none"
+                                    className="bg-transparent border-b-2 border-brand p-2 pl-0 focus:outline-none rounded-none"
                                 />
                                 <label htmlFor="age" className="text-brand font-bold capitalize text-xl">
                                     {t('contact.age')}
@@ -213,7 +213,7 @@ export default function Contact(): React.JSX.Element {
                                     id="age"
                                     type="number"
                                     placeholder={t('contact.age') as string}
-                                    className="bg-transparent border-b-2 border-brand p-2 pl-0 focus:outline-none"
+                                    className="bg-transparent border-b-2 border-brand p-2 pl-0 focus:outline-none rounded-none"
                                 />
                                 <label htmlFor="cv"
                                        className="text-brand font-bold capitalize text-xl">CV</label>
@@ -256,7 +256,7 @@ export default function Contact(): React.JSX.Element {
                                 <textarea
                                     id="message"
                                     placeholder={t('contact.message') as string}
-                                    className="bg-transparent border-b-2 border-brand p-2 pl-0 focus:outline-none"
+                                    className="bg-transparent border-b-2 border-brand p-2 pl-0 focus:outline-none rounded-none"
                                 ></textarea>
                                 <button className="bg-brand text-white rounded-lg p-2">
                                     {t('contact.send')}
@@ -271,7 +271,7 @@ export default function Contact(): React.JSX.Element {
                                     id="name"
                                     type="text"
                                     placeholder={t('contact.name') as string}
-                                    className="bg-transparent border-b-2 border-brand p-2 pl-0 focus:outline-none"
+                                    className="bg-transparent border-b-2 border-brand p-2 pl-0 focus:outline-none rounded-none"
                                 />
                                 <label htmlFor="email" className="text-brand font-bold capitalize text-xl">
                                     {t('contact.email')}
@@ -280,7 +280,7 @@ export default function Contact(): React.JSX.Element {
                                     id="email"
                                     type="text"
                                     placeholder={t('contact.email') as string}
-                                    className="bg-transparent border-b-2 border-brand p-2 pl-0 focus:outline-none"
+                                    className="bg-transparent border-b-2 border-brand p-2 pl-0 focus:outline-none rounded-none"
                                 />
                                 <label htmlFor="message" className="text-brand font-bold capitalize text-xl">
                                     {t('contact.message')}
@@ -288,7 +288,7 @@ export default function Contact(): React.JSX.Element {
                                 <textarea
                                     id="message"
                                     placeholder={t('contact.message') as string}
-                                    className="bg-transparent border-b-2 border-brand p-2 pl-0 focus:outline-none"
+                                    className="bg-transparent border-b-2 border-brand p-2 pl-0 focus:outline-none rounded-none"
                                 ></textarea>
                                 <button className="bg-brand text-white rounded-lg p-2">
                                     {t('contact.send')}

@@ -7,7 +7,7 @@ type LogoProps = { link: boolean, className?: string };
 
 const LOGO_NAME: string = 'XFOOD' as const;
 const Logo = ({link, className}: LogoProps): React.JSX.Element => (
-    <div className={c('flex flex-row items-center gap-x-2 font-semibold', className)}>
+    <div className={c('flex flex-row items-center font-semibold', className)}>
         {link ? (
             <Link to='/' className='font-black text-4xl text-brand'>
                 {LOGO_NAME}

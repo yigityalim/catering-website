@@ -1,30 +1,37 @@
+import React from "react";
 import {Route, Routes} from "react-router-dom";
-import Home from "./views/admin/Home.tsx";
-import Login from "./views/admin/Login.tsx";
-import { useAuthenticationStatus } from '@nhost/react';
-import SignIn from "./views/admin/SignIn.tsx";
-//import { Navigate } from "react-router-dom";
-const PrivateRoute = () => {
+import Login from "./admin/views/Login.tsx";
+import {useAuthenticationStatus} from '@nhost/react';
+import Settings from "./admin/views/Settings.tsx";
+import Spinner from "./components/Spinner.tsx";
+import Header from "./admin/components/Header.tsx";
+import Layout from "./admin/components/Layout.tsx";
+import Dashboard from "./admin/views/Dashboard.tsx";
 
-    const { isAuthenticated, isLoading } = useAuthenticationStatus();
+const PrivateRoute = (): React.JSX.Element => {
 
-    console.log(isAuthenticated, isLoading);
-
-    if (!isAuthenticated && !isLoading) {
-        //return <Navigate to="/login" />
-    }
+    const {isAuthenticated, isLoading} = useAuthenticationStatus();
 
     if (isLoading) {
-        return <h1>Loading...</h1>
+        return <Spinner/>
+    }
+
+    if (!isAuthenticated) {
+        return <Login/>
     }
 
     return (
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="*" element={<h1>Not Found</h1>} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/signin" element={<SignIn />} />
-        </Routes>
+        <div className="w-full h-full p-2 md:p-3 lg:p-4 flex flex-col gap-2 md:gap-3 lg:gap-4">
+            {isAuthenticated && <Header/>}
+            <Layout>
+                <Routes>
+                    <Route path="/" element={<Dashboard/>} />
+                    <Route path="*" element={<h1>Not Found</h1>}/>
+                    <Route path="/login" element={<Login/>}/>
+                    <Route path="/settings" element={<Settings/>}/>
+                </Routes>
+            </Layout>
+        </div>
     )
 };
 

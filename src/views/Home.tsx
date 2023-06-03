@@ -84,14 +84,14 @@ export default function Home(): React.JSX.Element {
                     <Text size="3xl" weight="bold" className="mb-4">{t('home.referencesSection.title')}</Text>
                     <div className="lg:grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 lg:gap-8">
                         {(t('home.referencesSection.references', {returnObjects: true}) as Array<Reference>).map((item, index) => (
-                            <div key={index} className="group max-w-md mx-auto mt-10 hover:bg-gray-200 rounded p-2">
+                            <div key={index} className="group max-w-md mx-auto mt-10 hover:bg-gray-200 dark:hover:bg-gray-800 rounded p-2 transition-colors">
                                 <div className="relative mb-4">
                                     <div className="absolute inset-0 flex items-center" aria-hidden="true">
                                         <div className="w-full border-t border-gray-300"></div>
                                     </div>
                                     <div className="relative flex justify-center text-sm">
                                       <span
-                                          className="px-2 bg-gray-100 group-hover:bg-gray-200 dark:bg-gray-800 text-gray-500 dark:text-gray-400">
+                                          className="px-2 bg-gray-100 group-hover:bg-gray-200 dark:group-hover:bg-gray-600 dark:bg-gray-800 text-gray-500 dark:text-gray-400 transition-colors">
                                         {t(item.username)}
                                       </span>
                                     </div>
